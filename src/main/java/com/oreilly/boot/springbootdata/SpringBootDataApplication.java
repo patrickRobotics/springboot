@@ -25,5 +25,8 @@ public class SpringBootDataApplication implements CommandLineRunner {
 	    for(int x = 0; x <= 10; x++) {
 	        System.out.println(tracker.getPrice("T"));
         }
+
+        System.out.println("Geting value using new method: ..");
+	    System.out.println(tracker.getPriceWithManager("T"));
     }
 }
